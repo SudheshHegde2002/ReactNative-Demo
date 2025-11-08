@@ -10,7 +10,7 @@ import codePush from 'react-native-code-push';
 import Toast from 'react-native-toast-message';
 import { InitialScreen, LoggedInInitialScreen, ScreensWithoutHeader } from './utils/constants';
 import { ScreenConfig } from './screens/screenConfig';
-import { FavoriteProvider } from './contexts/FavoriteProvider';
+import { FavoriteProvider } from './contexts/favoriteProvider';
 import { useAppInitialization } from './hooks/useAppInitialization';
 import { styles } from './appStyles';
 

@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import { Button } from 'react-native-elements';
 import { useStartPageLogic } from '../../hooks/useStartPageLogic';
-import styles from './Styles';
+import styles from './styles';
 import fontSizes from '../../utils/font_sizes';
 import { text } from '../../utils/text_placeholder';
 import { NavigationProp } from '@react-navigation/native';
